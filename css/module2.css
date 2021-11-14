@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Brush Script MT", cursive;
+}
+
+
+.content {
+  border: 1px solid black;
+  background-color: gray;
+  margin: 10px;
+  font-family: "Brush Script MT", cursive;
+}
+
+#el1{
+  background-color: pink;
+}
+
+#el2{
+  color: white;
+  background-color: red;
+}
+
+#el3{
+  background-color: yellow;
+}
+
+#el1, #el2, #el3 {
+  
+  float: right;
+  width: 100px;  
+  padding: 10px 10px 10px 10px;
+  font-weight: bold;
+  text-align: center;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+
+}
+
+.menu{
+    width: 100%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.submenu{
+
+ padding: 15px 15px 15px 15px; 
+}
+/********** Mobile Version **********/
+@media (max-width: 767px) {
+
+  .container-sm {
+    width: 100%;
+  }
+  
+}
+
+/********** Tablet Version **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .container-md {
+    width: 50%;
+    float:left;
+  }
+
+  .container-md-last {
+    width:100%;
+    float: left;
+  }
+  
+}
+
+/********** Desktop Version **********/
+@media (min-width: 992px) {
+
+  .container-lg {
+    width: 33.33%;
+    float: left;
+  }
+
